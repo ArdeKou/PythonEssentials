@@ -1,6 +1,7 @@
 from os import strerror, path
-
+#creates a histogram of letters in a text file
 #user input
+#use the .txt files in the directory for error results demonstrations
 src = input('Give .txt filename: ')
 hist = path.splitext(path.basename(src))[0] + '.hist' #savefile name parse
 
