@@ -1,4 +1,6 @@
 from os import strerror, stat
+# Adds point students have earned together
+# Use files in directory for exception demonstration
 # Exceptions
 class StudentsDataException(Exception):
     def __init__(self, message):
